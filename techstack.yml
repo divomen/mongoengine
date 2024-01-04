@@ -1,7 +1,8 @@
 repo_name: divomen/mongoengine
 report_id: b43b37eb903d39d07a993f934d80f460
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T16:42:51+00:00'
+timestamp: '2024-01-04T14:57:34+00:00'
 requested_by: bagerard
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/divomen/mongoengine
   detection_source: Repo Metadata
 - name: MongoDB
   description: The database for giant ideas
@@ -25,7 +27,8 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
-  detection_source: tests/utils.py
+  detection_source_url: https://github.com/divomen/mongoengine/blob/master/.travis.yml
+  detection_source: ".travis.yml"
   last_updated_by: Stefan Wojcik
   last_updated_on: 2019-06-12 09:57:25.000000000 Z
 - name: Git
@@ -36,6 +39,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/divomen/mongoengine
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -45,6 +49,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/divomen/mongoengine/blob/master/setup.py
   detection_source: setup.py
   last_updated_by: Harry Marr
   last_updated_on: 2010-01-03 02:30:34.000000000 Z
@@ -57,6 +62,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/divomen/mongoengine/blob/master/.travis.yml
   detection_source: ".travis.yml"
   last_updated_by: Stefan Wojcik
   last_updated_on: 2019-06-12 09:57:25.000000000 Z
@@ -69,10 +75,11 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/divomen/mongoengine
   detection_source: Repo Metadata
 - name: pymongo
   description: Python driver for MongoDB &lt;http://www.mongodb.org&gt;
-  package_url: https://pypi.org/pymongo
+  package_url: https://pypi.org/project/pymongo
   version: '3.4'
   license: Apache-2.0
   open_source: true
@@ -80,13 +87,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19865/default_7975a21f3bf03129dc3bc4168cf7cb7ee2cc14cc.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/divomen/mongoengine/blob/master/requirements.txt
   detection_source: setup.py
   last_updated_by: Stefan Wójcik
   last_updated_on: 2019-05-31 09:01:15.000000000 Z
 - name: six
   description: Python 2 and 3 compatibility utilities
-  package_url: https://pypi.org/six
+  package_url: https://pypi.org/project/six
   version: 1.10.0
   license: MIT
   open_source: true
@@ -94,7 +101,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/divomen/mongoengine/blob/master/requirements.txt
   detection_source: setup.py
   last_updated_by: Harry Marr
   last_updated_on: 2010-01-03 02:30:34.000000000 Z
